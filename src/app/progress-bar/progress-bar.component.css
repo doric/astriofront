@@ -1,0 +1,11 @@
+.progress {
+  height: 30px;
+}
+
+.progress-bar {
+  line-height: 30px;
+}
+
+.inline-progress-bar {
+  display: block;
+}

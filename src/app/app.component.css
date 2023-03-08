@@ -1,0 +1,61 @@
+.btn-group {
+  margin-top: 10px;
+}
+.appRoot {
+  background: #242424 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  top: 0px;
+  left: 0px;
+  width: 1429px;
+  opacity: 1;
+  height: 612px;
+  padding-top: 10%;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+}
+.appHeader {
+  top: 0px;
+  left: 0px;
+  width: 1429px;
+  background: #373737 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 83px;
+}
+
+.container {
+  max-width: 1200px; /* set maximum width of container */
+  margin: 0 auto; /* center container horizontally */
+  padding: 20px; /* add some space around the content within the container */
+  box-sizing: border-box; /* include padding and border in element's total width/height */
+  background-color: #242424;
+  border: 1px solid #ddd; /* add a border around the container */
+  border-radius: 5px; /* add rounded corners to the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow effect to the container */
+}
+
+.appFooter {
+  top: 0px;
+  left: 0px;
+  width: 1429px;
+  background: #373737 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 83px;
+}
+
+button {
+  /* Layout Properties */
+  top: 574px;
+  left: 496px;
+  width: 190px;
+  height: 32px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/19px Roboto;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin: 10px;
+
+  /* UI Properties */
+  background: #373737 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+}

@@ -1,27 +1,32 @@
-# Untitled
+# Évaluation du test technique
+Ce projet consiste en une application Angular qui affiche deux barres de progression pour évaluer deux critères différents. L'application permet également de réinitialiser la valeur des critères ou d'ajouter 5% ou 10% à chaque critère.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+## Installation
+- Assurez-vous d'avoir installé **Node.js** sur votre machine.
+- Clonez ce dépôt en utilisant la commande suivante : git clone https://github.com/doric/astriofrontassessment.
+- Naviguez vers le répertoire du projet : cd evaluation-test-technique.
+- Installez les dépendances en utilisant la commande suivante : **npm install**.
 
-## Development server
+## Utilisation
+- Lancez l'application en utilisant la commande suivante : **ng serve.**
+- Ouvrez votre navigateur et allez à l'adresse http://localhost:4200/.
+- Utilisez les boutons pour réinitialiser la valeur des critères ou ajouter/retirer **5%** ou **10%** à chaque critère.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Structure du projet
+Le projet est organisé selon l'architecture MVC (Modèle-Vue-Contrôleur). Voici les différents fichiers et dossiers :
 
-## Code scaffolding
+- **app.component.ts** : fichier contenant le code pour le composant principal de l'application.
+- **app.component.html** : fichier contenant le code HTML pour le composant principal de l'application.
+- **app.component.scss** : fichier contenant les styles pour le composant principal de l'application.
+- **app.module.ts** : fichier contenant la définition du module principal de l'application.
+- **progress-bar** : dossier contenant le code pour le composant de la barre de progression.
+- **progress-bar/progress-bar.component.ts** : fichier contenant le code pour le composant de la barre de progression.
+- **progress-bar/progress-bar.component.html** : fichier contenant le code HTML pour le composant de la barre de progression.
+- **progress-bar/progress-bar.component.scss** : fichier contenant les styles pour le composant de la barre de progression.
+- **models** : dossier contenant les modèles de l'application.
+- **models/evaluation.ts** : fichier contenant le modèle pour l'évaluation.
+- **controllers** : dossier contenant les contrôleurs de l'application.
+- **controllers/evaluation.controller.ts** : fichier contenant le contrôleur pour l'évaluation.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Auteur
+Ce projet a été créé par **Doric Ngouffo**.
