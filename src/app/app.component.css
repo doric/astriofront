@@ -28,9 +28,12 @@
   padding: 20px; /* add some space around the content within the container */
   box-sizing: border-box; /* include padding and border in element's total width/height */
   background-color: #242424;
-  border: 1px solid #ddd; /* add a border around the container */
   border-radius: 5px; /* add rounded corners to the container */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow effect to the container */
+}
+
+.text-center {
+  text-align: center;
 }
 
 .appFooter {
@@ -58,4 +61,7 @@ button {
   /* UI Properties */
   background: #373737 0% 0% no-repeat padding-box;
   box-shadow: 0 3px 6px #00000029;
+}
+div {
+  border: none;
 }
